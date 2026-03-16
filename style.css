@@ -27,10 +27,18 @@ header h1 {
   flex-wrap: wrap;
 }
 
+
+.logo {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
 .logo img {
-  width: 300px;
+  max-width: 900px;
+  width: 100%;
   height: auto;
 }
+
 
 /* .site-title {
   flex: 1;
