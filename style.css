@@ -73,7 +73,7 @@ header h1 {
   gap: 1rem;
   max-width: 1600px;
 }
-
+*/
 nav a {
   color: #fff;
   text-decoration: none;
@@ -106,7 +106,7 @@ nav ul {
   gap: 6px; /* legalább 5px távolság */
   max-width: 1400px;
 }
-nav a { color: #fff;
+/*nav a { color: #fff;
        text-decoration: none;
        padding: 8px 12px;
        border-radius: 8px; /* lekerekítés */
@@ -120,7 +120,7 @@ nav a { color: #fff;
        font-weight: bold; 
       }
 
-
+*/
 .menu-icon {
   width: 40px;
   height: 40px;
