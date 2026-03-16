@@ -96,18 +96,29 @@ nav a {
   
 } */
 
-nav ul { list-style: none;
-        padding: 10px;
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 8px; /* kisebb távolság */
-        max-width: 1400px; } 
-nav a { width: 220px; /* kisebb gombok */
-       padding: 8px 10px;
-       font-size: 10px; }
-
+nav ul { 
+  list-style: none;
+  padding: 10px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px; /* legalább 5px távolság */
+  max-width: 1400px;
+}
+nav a { color: #fff;
+       text-decoration: none;
+       padding: 8px 12px;
+       border-radius: 8px; /* lekerekítés */
+       border: 3px solid rgba(0,0,0,0.3); /* keret */
+       transition: 0.3s;
+       display: flex;
+       align-items: center;
+       justify-content: flex-start;
+       width: 230px; /* gomb méret */
+       box-sizing: border-box;
+       font-weight: bold; 
+      }
 
 
 .menu-icon {
