@@ -27,8 +27,18 @@ header h1 {
   flex-wrap: wrap;
 }
 
-.hero-logo { width: 100%; } 
-.hero-logo img { width: 100%; height: auto; display: block; }
+.hero-logo { width: 100%; 
+            height: 220px; /* a banner magassága */ 
+            overflow: hidden; /* levágja a fekete keretet */
+           }
+
+.hero-logo img 
+      {  width: 100%;
+         height: 100%;
+         object-fit: cover; /* kitölti a teret */ 
+         object-position: center; 
+         display: block;
+      }
 
 /*
 .logo {
