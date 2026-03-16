@@ -84,6 +84,7 @@ nav a {
   align-items: center;
   justify-content: flex-start;
   width: 270px; megnövelt szélesség 
+  height: 40px ;
   box-sizing: border-box;
   border: 3px solid rgba(0, 0, 0, 0.3); 
   color: #fff;
