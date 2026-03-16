@@ -1,0 +1,177 @@
+/* Alap stílus */
+body {
+  font-family: 'Press Start 2P', monospace, sans-serif;
+  background: linear-gradient(180deg, #1e1e1e, #333);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background: #111;
+  padding: 1rem;
+  border-bottom: 3px solid #ffcc00;
+}
+
+header h1 {
+  margin: 0;
+  color: #ffcc00;
+  font-size: 1.2rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  transition: 0.3s;
+  display: inline-block;
+}
+.menu-icon {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+
+/* Konzolonként más szín */
+nav a.nes {
+  background: #e60012;
+}
+nav a.snes {
+  background: #6a5acd;
+}
+nav a.ps1 {
+  background: #2f4f4f;
+}
+
+nav a:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #ffcc00;
+}
+
+/* Hero rész */
+.hero {
+  background: url("https://via.placeholder.com/1200x400?text=Retro+Konzolok") no-repeat center/cover;
+  padding: 4rem 2rem;
+  margin: 2rem 0;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+.hero h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 0.5rem auto;
+  line-height: 1.5;
+}
+
+footer {
+  background: #111;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 0.8rem;
+}
+
+
+
+nav a.c64 {
+  background: #0080ff; /* világoskék */
+}
+nav a.ps1 {
+  background: #2f4f4f; /* sötétszürke */
+}
+nav a.ps2 {
+  background: #001f4d; /* kékes sötét */
+}
+nav a.ps4 {
+  background: #0d47a1; /* playstation kék */
+}
+nav a.xbox360 {
+  background: #107c10; /* xbox zöld */
+}
+nav a.wii {
+  background: #cccccc; /* világosszürke */
+  color: #000;
+}
+nav a.dos {
+  background: #800000; /* bordó */
+}
+nav a.retropie {
+  background: #ff0000; /* piros */
+}
+
+.search-section {
+  margin: 2rem auto;
+  padding: 1rem;
+  max-width: 500px;
+  background: #1a1a1a;
+  border: 2px solid #ffcc00;
+  border-radius: 8px;
+}
+
+.search-section h2 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #ffcc00;
+}
+
+.search-section input[type="text"] {
+  padding: 0.5rem;
+  width: 70%;
+  border: none;
+  border-radius: 4px;
+  font-family: 'Press Start 2P', monospace;
+}
+
+.search-section button {
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+  background: #ffcc00;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Press Start 2P', monospace;
+}
+
+.search-section button:hover {
+  background: #fff;
+  color: #000;
+}
+.featured-console {
+  background: #222;
+  border: 2px dashed #ffcc00;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 204, 0, 0.5);
+}
+
+.featured-console h2 {
+  color: #ffcc00;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.featured-console p {
+  font-size: 0.8rem;
+  line-height: 1.4;
+
+
