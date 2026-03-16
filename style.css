@@ -40,28 +40,6 @@ header h1 {
          display: block;
       }
 
-/*
-.logo {
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-.logo img {
-  max-width: 900px;
-  width: 100%;
-  height: auto;
-}
-*/
-
-/* .site-title {
-  flex: 1;
-  text-align: center;
-  font-family: 'Monoton', cursive;
-  font-size: 4.5rem;
-  color: #ff0015;
-  text-shadow: 0 0 20px #ff4800, 0 0 20px #ff4800;
-  margin: 0;
-} */
 
  nav ul {
   list-style: none;
@@ -97,31 +75,6 @@ nav a {
   
 } */
 
-/*nav ul { 
-  list-style: none;
-  padding: 10px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 6px; 
-  max-width: 1400px;
-} */
-/*nav a { color: #fff;
-       text-decoration: none;
-       padding: 8px 12px;
-       border-radius: 8px;
-       border: 3px solid rgba(0,0,0,0.3);
-       transition: 0.3s;
-       display: flex;
-       align-items: center;
-       justify-content: flex-start;
-       width: 230px; 
-       box-sizing: border-box;
-       font-weight: bold; 
-      }
-
-*/
 .menu-icon {
   width: 40px;
   height: 40px;
