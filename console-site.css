@@ -232,3 +232,25 @@ audio {
 .best-games{
 	
 }
+.console-specs{ 
+	margin: 2rem auto;
+	border-collapse: collapse;
+	width: 600px;
+	max-width: 90%;
+	background: #1a1a1a;
+	border: 2px solid #ffcc00;
+} 
+.console-specs td{ 
+	padding: 10px 14px;
+	border: 1px solid #444;
+	text-align: left;
+	font-size: 10px;
+} 
+.console-specs td:first-child{
+	color: #ffcc00;
+	width: 40%;
+} 
+.console-specs tr:nth-child(even){
+	background: #222;
+}
+																																																																																			}
