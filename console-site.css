@@ -114,14 +114,16 @@ nav a:hover {
 	font-size: 10px;
 	z-index: 10;
 	transition: 0.3s;
-	widht: 50px;
-	height: auto;
+	
 } 
 .home-button:hover{
 	background: #ffcc00;
 	color: #000;
 }
-
+.home-button img{
+	widht: 50px;
+	height: auto;
+}
 
 /* Hero rész */
 .hero {
