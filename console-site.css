@@ -9,9 +9,10 @@ body {
 }
 
 header {
-  background: #000;
-  padding: 1rem;
-  border-bottom: 3px solid #ffcc00;
+	position: relative;
+  	background: #000;
+  	padding: 1rem;
+  	border-bottom: 3px solid #ffcc00;
 }
 
 header h1 {
