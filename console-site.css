@@ -317,6 +317,18 @@ audio {
 .side-column section{
 	margin-top: 25px;
 }
+.game-cartridges{ 
+	margin-top: 10px;
+	text-align: center;
+} 
+.game-cartridges img{
+	width: 100%;
+	max-width: 260px;
+	height: auto;
+	border-radius: 10px;
+	border: 2px solid #ffcc00;
+	image-rendering: pixelated;
+}
 /* mobil tördelés */
 @media (max-width: 900px){
 	.content-layout{
