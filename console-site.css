@@ -114,7 +114,7 @@ nav a:hover {
 	font-size: 10px;
 	z-index: 10;
 	transition: 0.3s;
-	width: 50px;
+	widht: 50px;
 	height: auto;
 } 
 .home-button:hover{
