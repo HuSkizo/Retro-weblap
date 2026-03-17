@@ -148,6 +148,10 @@ footer {
   font-size: 0.8rem;
   line-height: 1.4;
 }
+.featured-console img{
+  widht: 150px;
+  height: 150px;
+}
 
 /* Kereső szekció */
 .search-section {
