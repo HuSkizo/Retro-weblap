@@ -279,3 +279,19 @@ audio {
 		flex-direction: column;
 	}
 }
+.gallery{
+  margin-top: 40px;
+}
+
+.gallery-grid{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-grid img{
+  width: 180px;
+  border: 2px solid #ffcc00;
+  border-radius: 8px;
+}
