@@ -1,0 +1,208 @@
+/* Alap stílus */
+body {
+  font-family: 'Press Start 2P', monospace, sans-serif;
+  background: linear-gradient(180deg, #1e1e1e, #333);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background: #000;
+  padding: 1rem;
+  border-bottom: 3px solid #ffcc00;
+}
+
+header h1 {
+  margin: 0;
+  color: #ffcc00;
+  font-size: 1.2rem;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.hero-logo {width: 100%; 
+            height: auto;  
+            overflow: hidden;
+           }
+
+.hero-logo img 
+      {  width: 100%;
+         height: 100%;
+         object-fit: cover; /* kitölti a teret */ 
+         object-position: center; 
+         display: block;
+      }
+
+
+ nav ul {
+  list-style: none;
+  padding: 10px;
+  margin: 1rem auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+  max-width: 1840px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 270px; /*megnövelt szélesség*/ 
+  height: 40px ;
+  box-sizing: border-box;
+  border: 3px solid rgba(0, 0, 0, 0.3); 
+  color: #fff;
+  font-weight: bold;
+  text-shadow:
+    -2px -2px 0 rgba(0, 0, 0, 0.8),
+     2px -2px 0 rgba(0, 0, 0, 0.8),
+    -2px  2px 0 rgba(0, 0, 0, 0.8),
+     2px  2px 0 rgba(0, 0, 0, 0.8);
+  
+} */
+
+.menu-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+}
+
+/* Konzolonként más szín */
+nav a.nes { background: #e60012; }
+nav a.snes { background: #6a5acd; }
+nav a.c64 { background: #0080ff; }
+nav a.ps1 { background: #2f4f4f; }
+nav a.ps2 { background: #001f4d; }
+nav a.ps3 { background: #07337a; }
+nav a.ps4 { background: #0d47a1; }
+nav a.xbox360 { background: #107c10; }
+nav a.xbox { background: #0a5a0a; }
+nav a.wii { background: #cccccc; color: #fff; }
+nav a.dos { background: #800000; }
+nav a.retropie { background: #ff0000; }
+
+nav a:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #ffcc00;
+}
+
+/* Hero rész */
+.hero {
+  background: url("https://via.placeholder.com/1200x400?text=Retro+Konzolok") no-repeat center/cover;
+  padding: 4rem 2rem;
+  margin: 2rem 0;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+.hero h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 0.5rem auto;
+  line-height: 1.5;
+}
+
+footer {
+  background: #111;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 0.8rem;
+}
+
+
+/* Kereső szekció */
+.search-section {
+  margin: 2rem auto;
+  padding: 1rem;
+  max-width: 500px;
+  background: #1a1a1a;
+  border: 2px solid #ffcc00;
+  border-radius: 8px;
+}
+
+.search-section h2 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #ffcc00;
+}
+
+.search-section input[type="text"] {
+  padding: 0.5rem;
+  width: 70%;
+  border: none;
+  border-radius: 4px;
+  font-family: 'Press Start 2P', monospace;
+}
+
+.search-section button {
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+  background: #ffcc00;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Press Start 2P', monospace;
+}
+
+.search-section button:hover {
+  background: #fff;
+  color: #000;
+}
+
+/* Audio elrejtése */
+audio {
+  display: none;
+}
+
+.console-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem auto;
+  max-width: 1400px;
+  height: auto;
+}
+.console-cards img{
+  widht: 150px;
+  height: 150px;
+}
+.card {
+  background: #1a1a1a;
+  border: 2px solid #ffcc00;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 250px;
+  box-shadow: 0 0 10px r
+}
+.tech-spec{
+	
+}
+.history{
+	
+}
+.gallery{
+	
+}
+.best-games{
+	
+}
