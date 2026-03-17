@@ -253,4 +253,28 @@ audio {
 .console-specs tr:nth-child(even){
 	background: #222;
 }
-																																																																																			}
+.content-layout{ 
+	display: flex;
+	gap: 20px;
+	max-width: 1600px;
+	margin: 20px auto;
+}
+/* bal oszlop */
+.main-column{ 
+	flex: 2;
+	border: 2px solid #ffcc00;
+	padding: 20px;
+	margin-left: 10px;
+}
+/* jobb oszlop */ 
+.side-column{
+	flex: 1;
+	border: 2px solid #ffcc00;
+	padding: 20px;
+}
+/* mobil tördelés */
+@media (max-width: 900px){
+	.content-layout{
+		flex-direction: column;
+	}
+}
