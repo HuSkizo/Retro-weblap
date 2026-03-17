@@ -316,3 +316,6 @@ audio {
   border-radius: 12px;
   box-shadow: 0 0 12px rgba(255,204,0,0.3);
 }
+.side-column section{
+	margin-top: 25px;
+}
