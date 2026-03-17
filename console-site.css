@@ -267,13 +267,11 @@ audio {
 	flex: 1;
 	border: 2px solid #ffcc00;
 	padding: 20px;
+	position: sticky;
+  	top: 20px;
+  	align-self: flex-start;
 }
-/* mobil tördelés */
-@media (max-width: 900px){
-	.content-layout{
-		flex-direction: column;
-	}
-}
+
 .gallery{
   margin-top: 40px;
 }
@@ -318,4 +316,13 @@ audio {
 }
 .side-column section{
 	margin-top: 25px;
+}
+/* mobil tördelés */
+@media (max-width: 900px){
+	.content-layout{
+		flex-direction: column;
+	}
+	.side-column{
+    position: static;
+  }
 }
