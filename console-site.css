@@ -227,12 +227,7 @@ audio {
 .history{
 	
 }
-.gallery{
-	
-}
-.best-games{
-	
-}
+
 .console-specs{ 
 	margin: 2rem auto;
 	border-collapse: collapse;
@@ -294,4 +289,25 @@ audio {
   width: 180px;
   border: 2px solid #ffcc00;
   border-radius: 8px;
+}
+.best-games{
+  margin-top: 40px;
+}
+
+.best-games ul{
+  list-style: none;
+  padding: 0;
+}
+
+.best-games li{
+  padding: 6px 0;
+  border-bottom: 1px solid #444;
+}
+.console-image{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.console-image img{
+  width: 180px;
 }
