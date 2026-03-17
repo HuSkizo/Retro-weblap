@@ -80,7 +80,6 @@ nav a {
   height: 40px;
   margin-right: 8px;
 }
-
 /* Konzolonként más szín */
 nav a.nes { background: #e60012; }
 nav a.snes { background: #6a5acd; }
@@ -99,6 +98,27 @@ nav a:hover {
   transform: scale(1.1);
   box-shadow: 0 0 10px #ffcc00;
 }
+
+/* HOME gomb */
+.home-button{ 
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	background: rgba(0,0,0,0.6);
+	color: #fff;
+	text-decoration: none;
+	padding: 8px 14px;
+	border-radius: 8px;
+	border: 2px solid #ffcc00;
+	font-size: 10px;
+	z-index: 10;
+	transition: 0.3s;
+} 
+.home-button:hover{
+	background: #ffcc00;
+	color: #000;
+}
+
 
 /* Hero rész */
 .hero {
