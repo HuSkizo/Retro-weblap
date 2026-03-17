@@ -122,7 +122,8 @@ nav a:hover {
 }
 .home-button img{
 	widht: 50px;
-	height: auto;
+	height: 50px;
+	display: block;
 }
 
 /* Hero rész */
