@@ -235,6 +235,7 @@ audio {
 	max-width: 90%;
 	background: #1a1a1a;
 	border: 2px solid #ffcc00;
+	border-radius: 12px;
 } 
 .console-specs td{ 
 	padding: 10px 14px;
