@@ -227,7 +227,14 @@ audio {
 .history{
 	
 }
-
+/*Konzol technikai specifikáció*/
+.spec-box{
+	margin-top: 20px;
+	padding: 15px;
+	border: 2px solid #ffcc00;
+	border-radius: 12px;
+	background: #1a1a1a; 
+}
 .console-specs{ 
 	margin: 2rem auto;
 	border-collapse: collapse;
@@ -235,7 +242,7 @@ audio {
 	max-width: 90%;
 	background: #1a1a1a;
 	border: 2px solid #ffcc00;
-	border-radius: 12px;
+	
 } 
 .console-specs td{ 
 	padding: 10px 14px;
