@@ -228,34 +228,28 @@ audio {
 	
 }
 /*Konzol technikai specifikáció*/
-.spec-box{
-	margin-top: 20px;
-	padding: 15px;
-	border: 2px solid #ffcc00;
-	border-radius: 12px;
-	background: #1a1a1a; 
-}
+
 .console-specs{ 
-	margin: 2rem auto;
-	border-collapse: collapse;
-	width: 600px;
-	max-width: 90%;
+	width: 100%; 
+	border-collapse: separate;
+	border-spacing: 0; 
 	background: #1a1a1a;
 	border: 2px solid #ffcc00;
+	border-radius: 12px;
+	overflow: hidden;
 	
 } 
-.console-specs td{ 
-	padding: 10px 14px;
-	border: 1px solid #444;
-	text-align: left;
-	font-size: 10px;
-} 
-.console-specs td:first-child{
-	color: #ffcc00;
-	width: 40%;
-} 
-.console-specs tr:nth-child(even){
-	background: #222;
+.console-specs tr:first-child td:first-child{
+	border-top-left-radius: 12px; 
+}
+.console-specs tr:first-child td:last-child{
+	border-top-right-radius: 12px;
+}
+.console-specs tr:last-child td:first-child{
+	border-bottom-left-radius: 12px;
+}
+.console-specs tr:last-child td:last-child{
+	border-bottom-right-radius: 12px;
 }
 .content-layout{ 
 	display: flex;
