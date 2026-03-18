@@ -1,0 +1,37 @@
+{
+  "sections": [
+    {
+      "type": "text",
+      "title": "A NES története",
+      "content": [
+        "A Nintendo Entertainment System (röviden: NES) egy klasszikus 8 bites játékkonzol, ami eredetileg Family Computer vagy röviden FamiCom néven jelent meg Japánban 1983-ban, majd két évvel később az európai és észak-amerikai piacokon is.",
+        "Az 1980-as években nagy sikert arató játéktermi játékok hatására a Nintendo úgy döntött, hogy egy cartridge alapú otthoni konzolt fog kiadni."
+      ]
+    },
+    {
+      "type": "video",
+      "title": "NES reklám 1985-ből",
+      "youtube": "https://www.youtube.com/embed/i5ApMCiho1I?si=JPzgv1N2GZEsbUkW"
+    },
+    {
+      "type": "text",
+      "title": "NES Magyarországon",
+      "content": [
+        "Ide jöhet a magyar vonatkozású szöveg.",
+        "Később ezt külön is szerkesztheted a JSON fájlban."
+      ]
+    },
+    {
+      "type": "video",
+      "title": "Magyar NES reklám 1991-ből",
+      "youtube": "https://www.youtube.com/embed/DQys7H4qyeI?si=6JUCYeP0SzQPjTPI"
+    },
+    {
+      "type": "text",
+      "title": "Én és a NES",
+      "content": [
+        "NES-em soha nem volt, de határozottan emlékszem az első alkalomra, amikor élőben találkoztam a készülékkel."
+      ]
+    }
+  ]
+}
