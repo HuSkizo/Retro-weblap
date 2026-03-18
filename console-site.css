@@ -323,7 +323,7 @@ audio {
 } 
 .game-cartridges img{
 	width: 100%;
-	max-width: 260px;
+	max-width: 320px;
 	height: auto;
 	border-radius: 10px;
 	border: 2px solid #ffcc00;
